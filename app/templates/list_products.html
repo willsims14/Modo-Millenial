@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    <div class="row">
+    {% for product in products %}
+        <div class="col-sm-6 card-container" >
+          <a href="#">
+            <img alt="Smart Stock-Tracking Sculpture" class="product-image" src={{ product.url }} />
+            <div>
+                <div class="product_title">{{ product.title }}</div>
+            </div>    
+          </a>
+        </div>
+    {% endfor %}
+    </div>
+
+
+
+
+{% endblock %}
+
+
+
