@@ -44,6 +44,26 @@ def list_products():
             "price": 500.00,
             "url": "https://cdn-s3.touchofmodern.com/sales/000/059/118/30173ba90525baffdd011cb2be989cc6_medium_half.jpg?1546986799",
         },
+        {
+            "title": "Underwater Scooter",
+            "price": 500.00,
+            "url": "https://cdn-s3.touchofmodern.com/sales/000/059/118/30173ba90525baffdd011cb2be989cc6_medium_half.jpg?1546986799",
+        },
+        {
+            "title": "Underwater Scooter",
+            "price": 500.00,
+            "url": "https://cdn-s3.touchofmodern.com/sales/000/059/118/30173ba90525baffdd011cb2be989cc6_medium_half.jpg?1546986799",
+        },
+        {
+            "title": "Underwater Scooter",
+            "price": 500.00,
+            "url": "https://cdn-s3.touchofmodern.com/sales/000/059/118/30173ba90525baffdd011cb2be989cc6_medium_half.jpg?1546986799",
+        },
+        {
+            "title": "Underwater Scooter",
+            "price": 500.00,
+            "url": "https://cdn-s3.touchofmodern.com/sales/000/059/118/30173ba90525baffdd011cb2be989cc6_medium_half.jpg?1546986799",
+        },
     ]
 
     return render_template('list_products.html', title='Products', products=products)
